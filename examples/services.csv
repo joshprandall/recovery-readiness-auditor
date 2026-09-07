@@ -1,0 +1,4 @@
+service,owner,rpo_hours,rto_hours,last_backup_utc,last_restore_test_utc,runbook_url
+Inventory API,Platform Team,24,8,2026-09-06T06:00:00Z,2026-08-10T10:00:00Z,docs/inventory-recovery.md
+Reporting Database,Data Team,4,2,2026-09-05T20:00:00Z,2026-01-01T12:00:00Z,docs/reporting-recovery.md
+File Services,,24,8,2026-09-06T02:00:00Z,2026-08-01T12:00:00Z,

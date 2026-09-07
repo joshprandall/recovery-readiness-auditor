@@ -1,0 +1,48 @@
+{
+  "audited_at": "2026-09-06T12:00:00+00:00",
+  "restore_test_policy_days": 90,
+  "service_count": 3,
+  "services_with_findings": 2,
+  "services": [
+    {
+      "service": "Inventory API",
+      "owner": "Platform Team",
+      "status": "no_recorded_gaps",
+      "findings": []
+    },
+    {
+      "service": "Reporting Database",
+      "owner": "Data Team",
+      "status": "attention",
+      "findings": [
+        {
+          "code": "BACKUP_EXCEEDS_RPO",
+          "severity": "error",
+          "detail": "Latest recorded backup is 16.0 hours old; declared RPO is 4 hours."
+        },
+        {
+          "code": "RESTORE_TEST_OVERDUE",
+          "severity": "warning",
+          "detail": "Latest recorded restore test is 248.0 days old; policy is 90 days."
+        }
+      ]
+    },
+    {
+      "service": "File Services",
+      "owner": "",
+      "status": "attention",
+      "findings": [
+        {
+          "code": "MISSING_OWNER",
+          "severity": "warning",
+          "detail": "No accountable owner is recorded."
+        },
+        {
+          "code": "MISSING_RUNBOOK",
+          "severity": "warning",
+          "detail": "No recovery runbook reference is recorded."
+        }
+      ]
+    }
+  ]
+}
