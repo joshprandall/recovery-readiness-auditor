@@ -1,7 +1,7 @@
 # Recovery Readiness Auditor
 [![Python tests](https://github.com/joshprandall/recovery-readiness-auditor/actions/workflows/test.yml/badge.svg)](https://github.com/joshprandall/recovery-readiness-auditor/actions/workflows/test.yml)
 
-An offline Python command-line tool that checks a service inventory for recorded recovery gaps. This infrastructure-engineering project demonstrates practical disaster recovery concepts through explicit assumptions, deterministic examples, machine-readable output, and automated boundary testing.
+I built this offline Python command-line tool to check service inventories for documented recovery gaps. I use explicit assumptions, deterministic examples, machine-readable output, and automated boundary tests to demonstrate practical disaster-recovery concepts.
 
 ## Quick start
 
